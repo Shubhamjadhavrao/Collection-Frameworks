@@ -7,7 +7,7 @@ public class Student {
 
 	private int rollNumber;
 	private String name;
-	private String adresss;
+	private String addresss;
 
 	public Student() {
 		super();
@@ -18,8 +18,10 @@ public class Student {
 		super();
 		this.rollNumber = rollNumber;
 		this.name = name;
-		this.adresss = adresss;
+		this.addresss = adresss;
 	}
+
+	
 
 	public int getRollNumber() {
 		return rollNumber;
@@ -38,16 +40,16 @@ public class Student {
 	}
 
 	public String getAdresss() {
-		return adresss;
+		return addresss;
 	}
 
 	public void setAdresss(String adresss) {
-		this.adresss = adresss;
+		this.addresss = adresss;
 	}
 
 	@Override
 	public String toString() {
-		return "Student [rollNumber=" + rollNumber + ", name=" + name + ", adresss=" + adresss + "]";
+		return "Student [rollNumber=" + rollNumber + ", name=" + name + ", adresss=" + addresss + "]";
 	}
 
 	

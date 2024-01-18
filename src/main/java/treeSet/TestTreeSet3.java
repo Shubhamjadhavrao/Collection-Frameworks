@@ -1,8 +1,10 @@
 package treeSet;
 
 import java.util.Iterator;
-import java.util.Set;
+
 import java.util.TreeSet;
+
+
 
 public class TestTreeSet3 {
 	public static void main(String[] args) {
@@ -13,9 +15,9 @@ public class TestTreeSet3 {
 
 		TreeSet<Student> set = new TreeSet<>();
 
-		set.add(std3);
 		set.add(std1);
 		set.add(std2);
+		set.add(std3);
 
 		System.out.println(set);
 
