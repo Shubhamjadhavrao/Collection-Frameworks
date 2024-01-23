@@ -1,0 +1,7 @@
+
+package EnumDemo;
+
+public enum Days {
+	MONDAY,TUESDAY,WENDSDAY,THURSDAY,FRIDAY,SATURDAY,SUNDAY;
+
+}
